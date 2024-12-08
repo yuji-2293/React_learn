@@ -17,9 +17,11 @@
 
 //filter関数
 //配列からコールバック関数値を渡す、この時のデータはbooleanで渡される(true or false)
-//
-//
-//
+
+//find関数
+//filter同様戻り値にbooleanを採用
+
+//findWhereメソッド
 //
 //
 //
