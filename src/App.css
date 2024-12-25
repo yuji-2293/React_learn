@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* ここから下は学習用の記述 */
+.done {
+  color: grey;
+  text-decoration: line-through;
+}
