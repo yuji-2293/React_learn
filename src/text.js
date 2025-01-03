@@ -52,3 +52,52 @@
 
 //HTMLコレクションはElementの集合体
 //getElementByTagnameによって返ってくるデータ形式のこと
+
+
+// ------------------------------------------------------------------------
+// <ここからDOM操作/イベントについて>
+
+// innerText
+// ページ上に見えているtextを取得する
+// textContent
+// ノード内の全ての要素を返す
+//innerHTML
+//HTML要素をそのまま取得する
+
+// getAttribute
+// 指定したプロパティの属性を取得できる
+// setAttribute
+// 指定したプロパティの属性を設定することができる
+
+// classList（重要）
+// addメソッドが使える（classを追加できる）
+// removeメソッドが使える(classを削除できる)
+// toggleメソッドが使える(classの切り替えができる)
+// クリックイベントを拾ってclassの付け替えをすることで色の変更などを操作できる
+
+//createElement
+//document.createElement('img')→imgオブジェクトが作られる
+//appendChild()
+//要素の最後（子要素として）に追加する
+//append()
+//要素の最後に表示させるために、引数にtextを渡すことができる
+//prepend()
+//要素の最初に追加できる
+
+//insertAdjacentElement()
+//beforebegin afterend = position
+
+//before() after()
+//いずれも兄弟要素に対して直前か直後かにElementを追加することができる
+
+//remove removeChild
+
+// ------------------------------------------------------------------------
+
+// DOMイベントについて
+//addEventListener
+
+//イベント
+//クリックやホバーによりclassの付け外しを行うようなことができる
+//
+//

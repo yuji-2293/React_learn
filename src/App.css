@@ -42,3 +42,10 @@
   color: grey;
   text-decoration: line-through;
 }
+li {
+  background-color: #B10DC9;
+}
+
+.highlight {
+  background-color: #7FDBFF;
+}
